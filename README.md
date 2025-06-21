@@ -62,11 +62,12 @@ MongoDB (or use MongoDB Atlas for cloud hosting)
 ---
 🧩 Step 1: Clone Both Repositorie
 
-# Clone the frontend
+Clone the frontend
 git clone https://github.com/YashSikarwar28/BookHeavens-BookStore-Management-Frontend.git
 
-# Clone the backend
+Clone the backend
 git clone https://github.com/YashSikarwar28/BookHeavens-BookStore-Management-Backend.git
+
 ---
 
 ---
@@ -82,9 +83,11 @@ touch .env
 
 Add the following to your .env
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+ PORT=5000
+ 
+ MONGO_URI=your_mongodb_connection_string
+ 
+ JWT_SECRET=your_jwt_secret
 
 Then start the backend server:
 
@@ -99,10 +102,13 @@ By default, the backend will run on http://localhost:5000.
 cd ../BookHeavens-BookStore-Management-Frontend
 
 # Install dependencies
+
 npm install
+
 Create a .env file
 
 REACT_APP_API_BASE_URL=http://localhost:5000/api
+
 Then start the frontend app:
 npm start
 
