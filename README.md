@@ -49,11 +49,14 @@ Welcome to **BookHeavens**, the sleek and user-friendly **frontend** of a bookst
 
 ---
 📦 Prerequisites
-
 Make sure you have installed:
+
 Node.js (v16+)
+
 npm or yarn
+
 MongoDB (or use MongoDB Atlas for cloud hosting)
+
 ---
 
 ---
