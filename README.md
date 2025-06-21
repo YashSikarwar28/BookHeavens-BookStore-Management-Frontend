@@ -36,11 +36,71 @@ Welcome to **BookHeavens**, the sleek and user-friendly **frontend** of a bookst
 - **Routing**: React Router v6  
 - **Build Tools**: Vite / Webpack / Create React App
 
-  ## 🚀 Getting Started
+---
+## 🚀 Getting Started
 
-### Prerequisites
+-This project consists of:
 
-- Node.js v16+  
-- npm or Yarn  
-- Working backend API ()
+🖥 Frontend: React.js (BookHeavens-BookStore-Management-Frontend)
+🛠 Backend: Node.js / Express (BookHeavens-BookStore-Management-Backend)
+---
 
+---
+📦 Prerequisites
+
+Make sure you have installed:
+Node.js (v16+)
+npm or yarn
+MongoDB (or use MongoDB Atlas for cloud hosting)
+---
+
+---
+🧩 Step 1: Clone Both Repositorie
+
+# Clone the frontend
+git clone https://github.com/YashSikarwar28/BookHeavens-BookStore-Management-Frontend.git
+
+# Clone the backend
+git clone https://github.com/YashSikarwar28/BookHeavens-BookStore-Management-Backend.git
+---
+
+---
+🖥 Step 2: Setup Backend
+
+cd BookHeavens-BookStore-Management-Backend
+
+# Install dependencies
+npm install
+
+# Create .env file
+touch .env
+
+Add the following to your .env
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+Then start the backend server:
+
+npm run dev
+By default, the backend will run on http://localhost:5000.
+
+---
+
+---
+🌐 Step 3: Setup Frontend
+
+cd ../BookHeavens-BookStore-Management-Frontend
+
+# Install dependencies
+npm install
+Create a .env file
+
+REACT_APP_API_BASE_URL=http://localhost:5000/api
+Then start the frontend app:
+npm start
+
+Your app should now be running on http://localhost:3000.
+
+---
