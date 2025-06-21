@@ -44,17 +44,3 @@ Welcome to **BookHeavens**, the sleek and user-friendly **frontend** of a bookst
 - npm or Yarn  
 - Working backend API ()
 
-### Installation
-
-bash
-# Clone the repo
-git clone https://github.com/YashSikarwar28/BookHeavens-BookStore-Management-Frontend.git
-cd BookHeavens-BookStore-Management-Frontend
-
-# Install dependencies
-npm install
-# or
-yarn install
-
-#Configuration
-Create a .env file in the root and add:
