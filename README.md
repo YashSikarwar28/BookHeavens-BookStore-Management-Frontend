@@ -42,7 +42,9 @@ Welcome to **BookHeavens**, the sleek and user-friendly **frontend** of a bookst
 -This project consists of:
 
 🖥 Frontend: React.js (BookHeavens-BookStore-Management-Frontend)
+
 🛠 Backend: Node.js / Express (BookHeavens-BookStore-Management-Backend)
+
 ---
 
 ---
